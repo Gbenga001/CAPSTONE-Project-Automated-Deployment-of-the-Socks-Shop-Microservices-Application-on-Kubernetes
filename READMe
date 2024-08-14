@@ -1,0 +1,23 @@
+#Automated Deployment of the Socks Shop Microservices Application on Kubernetes#
+
+#Overview#
+This project focuses on the deployment of a microservices-based architecture, specifically the Socks Shop application, on Kubernetes. By leveraging Infrastructure as Code (IaaC), the deployment is automated to ensure a fast, consistent, and reliable setup. The project emphasizes best practices in DevOps, including monitoring, logging, security, and maintainability.
+
+#Project Objective#
+The objective is to demonstrate the effective deployment of a microservices application using modern tools and methodologies. The key goals include:
+
+*Automating Deployment: Utilize IaaC to automate the deployment process.
+*Monitoring and Logging: Implement monitoring with Prometheus and logging to track application performance and operations.
+*Security: Secure the application using HTTPS with Let’s Encrypt certificates and enforce network perimeter security.
+*Maintainability: Ensure that the deployment scripts are clear, maintainable, and easily replicable.
+
+#Prerequisites#
+Before deploying the application, ensure that the following tools and services are available and configured:
+
+*AWS Account: For provisioning infrastructure, including VPC and EKS clusters.
+*Terraform: To define and deploy infrastructure resources.
+*kubectl: For managing Kubernetes clusters.
+*Helm: For packaging and deploying Helm charts.
+*Prometheus & Grafana: For monitoring the application.
+*Ansible: (Optional) For configuration management and handling sensitive information.
+*Let’s Encrypt: For generating HTTPS certificates.
